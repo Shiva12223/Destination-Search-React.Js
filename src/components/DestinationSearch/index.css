@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 100vh;
+}
+.destination-card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1f5f9;
+    border-radius: 5px;
+    padding: 5px;
+    
+
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;    
+}
